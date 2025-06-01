@@ -275,7 +275,7 @@ const Home = () =>{
                         href={project.githubUrl} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="bg-customtext text-primary px-4 py-2 rounded hover:bg-gray-900 transition-colors"
+                        className="bg-tertiary text-customtext px-4 py-2 rounded hover:bg-gray-900 transition-colors"
                       >
                         GitHub
                       </a>
@@ -295,21 +295,21 @@ const Home = () =>{
             <div className="max-w-md mx-auto bg-tertiary p-8 rounded-lg shadow-lg">
               <form className="space-y-4">
                 <div>
-                  <input type="text" placeholder="Your Name" className="w-full p-3 bg-quaternary rounded" />
+                  <input type="text" placeholder="Your Name" className="w-full p-3 bg-quaternary rounded placeholder:text-primary" />
                 </div>
                 <div>
-                  <input type="email" placeholder="Your Email" className="w-full p-3 bg-quaternary rounded" />
+                  <input type="email" placeholder="Your Email" className="w-full p-3 bg-quaternary rounded placeholder:text-primary" />
                 </div>
                 <div>
-                  <textarea placeholder="Your Message" rows="5" className="w-full p-3 bg-quaternary rounded"></textarea>
+                  <textarea placeholder="Your Message" rows="5" className="w-full p-3 bg-quaternary rounded placeholder:text-primary"></textarea>
                 </div>
                 <button className="w-full bg-quaternary text-customtext py-3 rounded font-bold">Send Message</button>
               </form>
             </div>
             
             <div className="mt-12 flex justify-center space-x-4">
-              <a href="https://github.com/amechi-aduba" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">GitHub</a>
-              <a href="https://www.linkedin.com/in/amechi-aduba/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">LinkedIn</a>
+              <a href="https://github.com/amechi-aduba" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white">GitHub</a>
+              <a href="https://www.linkedin.com/in/amechi-aduba/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-white">LinkedIn</a>
               <span className="text-gray-200">Email: amechia99@gmail.com</span>
             </div>
           </div>
