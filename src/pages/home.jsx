@@ -158,6 +158,30 @@ const Home = () =>{
                 pointerEvents: isZoomed ? 'none' : 'auto',
             }}
             >
+            <div 
+                className="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-customtext text-2xl font-light"
+                style={{
+                    opacity: 1 - (progress * 2), // Fade out by the time progress reaches 0.5
+                    transition: 'opacity 0.2s ease-in-out'
+                }}
+            >
+                Scroll to explore
+                <div className="mt-4 flex justify-center">
+                    <svg 
+                        className="animate-bounce w-6 h-6" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        viewBox="0 0 24 24"
+                    >
+                        <path 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round" 
+                            strokeWidth={2} 
+                            d="M19 14l-7 7m0 0l-7-7m7 7V3" 
+                        />
+                    </svg>
+                </div>
+            </div>
         <Canvas
             className='w-full h-full'
             //camera={{ position: [0, 6.5, -47], fov: 35}}
