@@ -62,7 +62,7 @@ const Projects = [
     description: "Personal portfolio website featuring 3D animations, smooth scrolling, and responsive design showcasing my development skills.",
     image: portfolioImg,
     technologies: ["React", "Three.js", "Framer Motion", "Tailwind CSS"],
-    demoUrl: "https://your-portfolio.com",
+    demoUrl: "https://portfolio-opal-nu-54.vercel.app",
     githubUrl: "https://github.com/yourusername/portfolio",
     featured: false
   }
