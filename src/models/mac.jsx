@@ -7,12 +7,15 @@ import * as THREE from 'three';
 
 //import macScene from '../assets/mac-scene.jpg'
 
+import macScreenImg from '../assets/img/macScreen.png';
+import macScreen2Img from '../assets/img/macScreen2.png';
+
 const Mac = ({progress = 0, modelPath, ...rest}) => {
     const group = useRef();
 
     const { nodes, materials } = useGLTF(modelPath)
-    const screenImg = useTexture('/src/assets/img/macScreen.png')
-    const gradientImg = useTexture('/src/assets/img/macScreen2.png')
+    const screenImg = useTexture(macScreenImg)
+    const gradientImg = useTexture(macScreen2Img)
     
     const screenMaterial = useMemo(() => {
         const m = materials['screen.001'].clone();
