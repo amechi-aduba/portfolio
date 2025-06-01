@@ -22,7 +22,7 @@ const Projects = [
     description: "A pictionary game where the user draws with their hands on their webcam and the AI predicts what their drawing is! Created in both React and Python.",
     image: drawVsAIImg,
     technologies: ["React", "Python", "Google API", "Mediapipe","Tailwind CSS"],
-    demoUrl: "https://your-portfolio.com",
+    demoUrl: "https://your-demo-link.com",
     githubUrl: "https://github.com/yourusername/Draw vs AI",
     featured: true
   },
