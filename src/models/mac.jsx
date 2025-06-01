@@ -7,10 +7,10 @@ import * as THREE from 'three';
 
 //import macScene from '../assets/mac-scene.jpg'
 
-const Mac = ({progress = 0, ...rest}) => {
+const Mac = ({progress = 0, modelPath, ...rest}) => {
     const group = useRef();
 
-    const { nodes, materials } = useGLTF('/src/assets/3d/mac-draco.glb')
+    const { nodes, materials } = useGLTF(modelPath)
     const screenImg = useTexture('/src/assets/img/macScreen.png')
     const gradientImg = useTexture('/src/assets/img/macScreen2.png')
     

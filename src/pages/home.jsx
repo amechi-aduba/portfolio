@@ -10,6 +10,7 @@ import * as THREE from 'three';
 import Projects from './projects';
 
 import Mac from '../models/mac';
+import macDraco from '../assets/3d/mac-draco.glb';
 
 function ZoomCamera({ progress }) {
 
@@ -175,6 +176,7 @@ const Home = () =>{
                             scale={macScale} 
                             position={macPosition} 
                             rotation={macRotation}
+                            modelPath={macDraco}
                         />
                     </group>
             </Suspense>
