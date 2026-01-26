@@ -18,7 +18,7 @@ const Projects = [
   },
   {
     id: 2,
-    title: "Hand Tracking Draw vs AI game (IN PROGRESS)",
+    title: "Hand Tracking Draw vs AI game",
     description: "A pictionary game where the user draws with their hands on their webcam and the AI predicts what their drawing is! Created in both React and Python.",
     image: drawVsAIImg,
     technologies: ["React", "Python", "Google API", "Mediapipe","Tailwind CSS"],
