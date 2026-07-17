@@ -235,15 +235,18 @@ button {
   outline-offset: 0.14em;
 }
 
-.scramble-title__segment,
+.scramble-title__segment {
+  display: block;
+  white-space: nowrap;
+}
+
 .scramble-title__word {
   display: inline-block;
   white-space: nowrap;
 }
 
 .scramble-title__space {
-  display: inline-block;
-  white-space: pre;
+  display: none;
 }
 
 .scramble-character {

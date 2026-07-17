@@ -47,7 +47,7 @@ export default function ContactApp() {
       </header>
 
       <main className="contact-terminal-content">
-        <p className="terminal-comment">// direct lines — no form, no middleman</p>
+        <p className="terminal-comment">// direct lines</p>
         <h1>Ways to reach me</h1>
         <p className="contact-terminal-intro">
           I’m available for software engineering, AI, and technical support opportunities.
