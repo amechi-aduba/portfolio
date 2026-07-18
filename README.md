@@ -1,12 +1,39 @@
-# React + Vite
+# Amechi Aduba — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, macOS-inspired desktop portfolio built with React, TypeScript, and Vite. The interface uses a familiar Mac wallpaper, system menu bar, draggable terminal windows, and a résumé-focused application dock.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Six intentionally blank terminal project slots for manual editing
+- Terminal-style résumé rebuilt from `Amechi_Aduba_Resume_2026.pdf`
+- Downloadable résumé PDF served from `public/`
+- About, Experience, Education, Résumé, Projects, and Contact applications
+- Direct terminal contact methods for email, phone, LinkedIn, GitHub, and location
+- Green character-scramble interaction on the hero name
+- Draggable windows with close, minimize, maximize, z-order, and Escape-to-close behavior
+- Keyboard-visible controls, semantic labels, safe external links, and reduced-motion support
+- Responsive window layouts for desktop and mobile viewports
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Run the full local verification set:
+
+```bash
+npm run typecheck
+npm run lint
+npm run build
+```
+
+## Content maintenance
+
+- Blank project slots: `src/data/projects.ts`
+- Résumé and contact content: `src/data/resume.ts`
+- Desktop/window behavior: `src/App.tsx` and `src/components/DesktopWindow.tsx`
+- Visual system and responsive rules: `src/styles/index.css`
+
+Fill in the empty values in `src/data/projects.ts` to publish project titles, descriptions, stacks, repository links, and demo links. External links open in a new tab with `noopener noreferrer`.
