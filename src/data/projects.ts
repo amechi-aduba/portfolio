@@ -7,8 +7,8 @@ export const projectSlots = [
     title: 'Footee Vision',
     description: 'Footee Vision is a full-stack computer-vision app that analyzes amateur soccer highlight reels. It detects clips, tracks a selected player, and generates a tactical profile based on movement, involvement, and playing style.',
     stack: ['Python', 'React', 'Typescript', 'Vite', 'OpenCV', 'NumPy', 'TransNetV2', 'YOLO11m'],
-    repositoryUrl: '',
-    demoUrl: '',
+    repositoryUrl: 'https://github.com/amechi-aduba/footee-highlights',
+    demoUrl: 'https://footee-highlights.vercel.app/',
     status: 'in-progress',
   },
   {
